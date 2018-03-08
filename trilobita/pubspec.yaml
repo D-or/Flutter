@@ -8,6 +8,7 @@ dependencies:
   flutter_markdown: 0.1.1
   image_picker:
   flutter_webview_plugin:
+  qrcode_reader: 0.3.2
 
 dev_dependencies:
   flutter_test:
