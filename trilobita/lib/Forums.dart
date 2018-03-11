@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qrcode_reader/QRCodeReader.dart';
 
 class Forums extends StatefulWidget {
   @override
@@ -45,7 +46,9 @@ class ForumsState extends State<Forums> with TickerProviderStateMixin {
           new IconButton(
             icon: new Icon(Icons.search, color: Colors.white),
             tooltip: 'Search',
-            onPressed: null
+            onPressed: () {
+              new QRCodeReader().scan();
+            }
           )
         ]
       ),

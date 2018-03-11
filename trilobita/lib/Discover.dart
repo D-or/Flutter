@@ -73,7 +73,7 @@ class DiscoverState extends State<Discover>{
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Blank"),
+        title: new Text("Discover"),
         backgroundColor: const Color.fromRGBO(18, 185, 201, 1.0)
       ),
       body: isShow ? new Container(

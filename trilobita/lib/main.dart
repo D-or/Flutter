@@ -35,7 +35,7 @@ final List<BottomNavigationBarItem> _allPages = <BottomNavigationBarItem>[
   ),
   new BottomNavigationBarItem(
     icon: new Icon(Icons.fingerprint),
-    title: new Text('Blank')
+    title: new Text('Discover')
   ),
   new BottomNavigationBarItem(
     icon: new Icon(Icons.person_outline),
